@@ -5,96 +5,309 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link rel='stylesheet'  href='https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' type='text/css' media='all' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="{{mix('/css/vendor.css')}}">
     <link rel="stylesheet" href="{{mix('/css/app.css')}}">
     <title>Document</title>
 </head>
-<body class="h-screen overflow-hidden flex items-center justify-center" style="background: #edf2f7;">
-<nav class="bg-gray-900"><div class="flex justify-between relative border-b border-gray-800 text-xs z-20">
-        <div class="container mx-auto flex justify-between py-3 px-8">
-            <ul class="flex"><li class="relative group text-gray-400">
-                    <a href="#" class="group-hover:text-teal-500 flex items-center">
-                        <svg class="w-4 h-4 md:mr-2 text-gray-600 group-hover:text-teal-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"><g fill="currentColor"><path d="M17,11.94q-.16.626-.922,3.091h1.86q-.719-2.309-.808-2.612C17.072,12.218,17.028,12.058,17,11.94Z" fill="currentColor"></path><path d="M22,8H12a2,2,0,0,0-2,2v9a2,2,0,0,0,2,2h6l4,3V21a2,2,0,0,0,2-2V10A2,2,0,0,0,22,8ZM18.819,18,18.3,16.3H15.7L15.181,18H13.55l2.52-7.168h1.85L20.45,18Z" fill="currentColor"></path><path d="M12,0H2A2,2,0,0,0,0,2v9a2,2,0,0,0,2,2v3l4-3H9V10a2.828,2.828,0,0,1,.04-.393A9.23,9.23,0,0,1,7.056,8.529,10.268,10.268,0,0,1,3.874,10a4.633,4.633,0,0,0-.768-1.415A8.7,8.7,0,0,0,5.944,7.537,7,7,0,0,1,4.913,6.074a7.077,7.077,0,0,1-.552-1.367c-.471,0-.743.016-1.143.048V3.308a9.853,9.853,0,0,0,1.159.056H6.145v-.48a2.482,2.482,0,0,0-.048-.5H7.7a2.445,2.445,0,0,0-.048.487v.488h1.9a9.774,9.774,0,0,0,1.159-.056V4.755c-.352-.032-.664-.048-1.135-.048A6.278,6.278,0,0,1,9.039,6.25a5.924,5.924,0,0,1-.888,1.3A6.958,6.958,0,0,0,9.617,8.2,2.987,2.987,0,0,1,12,7h2V2A2,2,0,0,0,12,0Z"></path><path d="M7.016,6.642a4.51,4.51,0,0,0,1-1.935H5.9A4.562,4.562,0,0,0,7.016,6.642Z"></path></g></svg><span class="hidden md:inline-block">English</span>
-                    </a>
-                    <div class="w-32 left-0 items-center absolute invisible group-hover:visible pt-4">
-                        <ul class="shadow rounded bg-white text-gray-700 px-4 py-2"><li>
-                                <a href="#" class="text-xs w-full inline-block py-1 font-semibold text-teal-700 flex items-center">
-                                    English
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-xs w-full inline-block py-1 hover:text-teal-700 flex items-center">
-                                    Spanish
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-xs w-full inline-block py-1 hover:text-teal-700 flex items-center">
-                                    Russian
-                                </a>
-                            </li>
-                        </ul></div>
-                </li>
-            </ul><ul class="flex"><li class="relative group text-gray-400 mr-5">
-                    <a href="#" class="hover:text-teal-500 group-hover:text-teal-500 flex items-center">
-                        <svg class="w-4 h-4 md:mr-2 text-gray-600 group-hover:text-teal-500" viewbox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd"><path d="M3,5 L4.33333333,9 L4,9 C2.34314575,9 1,10.3431458 1,12 C1,13.6568542 2.34314575,15 4,15 L17,15 L17,13 L4.00684547,13 C3.45078007,13 3,12.5561352 3,12 C3,11.4477153 3.44748943,11 3.99850233,11 L10.5,11 L17,11 L20,2 L4,2 L4,0.997030139 C4,0.453036308 3.54809015,0 2.9906311,0 L0,0 L0,2 L2,2 L3,5 Z M5,20 C6.1045695,20 7,19.1045695 7,18 C7,16.8954305 6.1045695,16 5,16 C3.8954305,16 3,16.8954305 3,18 C3,19.1045695 3.8954305,20 5,20 Z M15,20 C16.1045695,20 17,19.1045695 17,18 C17,16.8954305 16.1045695,16 15,16 C13.8954305,16 13,16.8954305 13,18 C13,19.1045695 13.8954305,20 15,20 Z" id="Combined-Shape"></path></g></svg><span class="hidden md:inline-block">Cart</span>
-                    </a>
-                    <div class="w-48 md:w-64 right-0 items-center absolute invisible group-hover:visible pt-4">
-                        <ul class="shadow rounded bg-white text-gray-700 px-4 py-2"><li class="flex items-center justify-between py-1 px-1">
-                                <a href="#" class="text-xs w-full flex items-center hover:text-teal-700">
-                                    <span class="w-5 h-5 bg-center bg-cover rounded-full bg-gray-300 mr-2"></span>
-                                    <span class="inline-block truncate w-24 md:w-40">Something very cool and awesome</span>
-                                </a>
-                                <a href="#" class="text-gray-600 hover:text-teal-700">
-                                    <svg class="w-4 h-4" viewbox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd"><path d="M11.4142136,10 L14.2426407,7.17157288 L12.8284271,5.75735931 L10,8.58578644 L7.17157288,5.75735931 L5.75735931,7.17157288 L8.58578644,10 L5.75735931,12.8284271 L7.17157288,14.2426407 L10,11.4142136 L12.8284271,14.2426407 L14.2426407,12.8284271 L11.4142136,10 L11.4142136,10 Z M2.92893219,17.0710678 C6.83417511,20.9763107 13.1658249,20.9763107 17.0710678,17.0710678 C20.9763107,13.1658249 20.9763107,6.83417511 17.0710678,2.92893219 C13.1658249,-0.976310729 6.83417511,-0.976310729 2.92893219,2.92893219 C-0.976310729,6.83417511 -0.976310729,13.1658249 2.92893219,17.0710678 L2.92893219,17.0710678 Z M4.34314575,15.6568542 C7.46734008,18.7810486 12.5326599,18.7810486 15.6568542,15.6568542 C18.7810486,12.5326599 18.7810486,7.46734008 15.6568542,4.34314575 C12.5326599,1.21895142 7.46734008,1.21895142 4.34314575,4.34314575 C1.21895142,7.46734008 1.21895142,12.5326599 4.34314575,15.6568542 L4.34314575,15.6568542 Z" id="Combined-Shape-Copy"></path></g></svg></a>
-                            </li>
-                        </ul></div>
-                </li>
-                <li class="relative group text-gray-400">
-                    <a href="#" class="group-hover:text-teal-500 flex items-center">
-                        <svg class="w-4 h-4 md:mr-2 text-gray-600 group-hover:text-teal-500" viewbox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd"><path d="M10,20 C15.5228475,20 20,15.5228475 20,10 C20,4.4771525 15.5228475,0 10,0 C4.4771525,0 0,4.4771525 0,10 C0,15.5228475 4.4771525,20 10,20 Z M6.99999861,6.00166547 C6.99999861,4.34389141 8.3465151,3 9.99999722,3 C11.6568507,3 12.9999958,4.33902013 12.9999958,6.00166547 L12.9999958,7.99833453 C12.9999958,9.65610859 11.6534793,11 9.99999722,11 C8.34314374,11 6.99999861,9.66097987 6.99999861,7.99833453 L6.99999861,6.00166547 Z M3.34715433,14.4444439 C5.37306718,13.5169611 7.62616222,13 10,13 C12.3738388,13 14.6269347,13.5169615 16.6528458,14.4444437 C15.2177146,16.5884188 12.7737035,18 10,18 C7.22629656,18 4.78228556,16.5884189 3.34715433,14.4444439 L3.34715433,14.4444439 Z" id="Combined-Shape"></path></g></svg><span class="hidden md:inline-block">Account</span>
-                    </a>
-                    <div class="w-32 right-0 items-center absolute invisible group-hover:visible pt-4">
-                        <ul class="shadow rounded bg-white text-gray-700 px-4 py-2"><li>
-                                <a href="#" class="text-xs w-full inline-block py-1 hover:text-teal-700 flex items-center">
-                                    <svg class="mr-2 w-4 h-4 opacity-75" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"><g fill="currentColor"><path d="M8,24a.988.988,0,0,1-.581-.187l-7-5A1,1,0,0,1,0,18V1A1,1,0,0,1,1,0c.388,0,1.185.624,1.316.718L8.582,5.2A1,1,0,0,1,9,6.016V23a1,1,0,0,1-.542.89A1.019,1.019,0,0,1,8,24Z" fill="currentColor"></path><path d="M11,13v6h3a1,1,0,0,0,1-1V13Z" fill="currentColor"></path><path d="M11,6.016V7h4V1a1,1,0,0,0-1-1H4.751l5,3.576A3.013,3.013,0,0,1,11,6.016Z" fill="currentColor"></path><polygon points="24 10 18 5 18 9 11 9 11 11 18 11 18 15 24 10"></polygon></g></svg>
-                                    Logout
-                                </a>
-                            </li>
-                        </ul></div>
-                </li>
-            </ul></div>
-    </div>
+<body id="page-top">
 
-    <div class="container mx-auto py-5 px-8">
-        <div class="relative flex justify-between items-center">
-            <a href="#" class="flex items-center">
-                <svg class="text-teal-500 mr-2" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="currentColor" stroke="currentColor"><polygon points="19 3 4 19 15 19 13 29 28 13 17 13 19 3" fill="none" stroke="currentColor" stroke-miterlimit="10"></polygon></g></svg><span class="text-white font-bold">Logo</span>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger mb-4" href="#page-top">
+        <span class="d-block d-lg-none">Sujit Baniya</span>
+        <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-square mx-auto mb-2" src="/img/profile.jpg" alt=""><br>
+        <span class="d-lg-block">Sujit Baniya</span>
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#contacts">Contacts</a>
+            </li>
+        </ul>
+        <div class="social-icons fa-pull-right">
+            <a href="https://www.linkedin.com/in/itsursujit" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
             </a>
-            <button onclick="this.nextElementSibling.classList.toggle('hidden')" class="px-3 py-2 border rounded text-gray-500 border-gray-500 inline-block md:hidden">
-                <svg class="fill-current text-gray-400 h-3 w-3" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path stroke-width="1" stroke="currentColor" d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></button>
-            <div class="w-full max-w-xs hidden justify-between absolute right-0 top-0 mt-12 font-medium tracking-wide text-sm text-gray-800 bg-white p-5 shadow rounded z-10 md:text-gray-400 md:max-w-full md:ml-12 md:flex md:mt-0 md:relative md:flex-row md:items-center md:bg-transparent md:p-0 md:shadow-none md:rounded-none">
-                <ul class="flex flex-col md:flex-row"><li class="mr-10 mb-3 md:mb-0">
-                        <a href="#" class="hover:text-teal-500">Home</a>
-                    </li>
-                    <li class="mr-10 mb-3 md:mb-0">
-                        <a href="#" class="hover:text-teal-500">About</a>
-                    </li>
-                    <li class="mr-10 mb-3 md:mb-0">
-                        <a href="#" class="hover:text-teal-500">Contact Us</a>
-                    </li>
-                </ul><ul class="flex md:items-center flex-col md:flex-row"><li class="mr-10 mb-3 md:mb-0">
-                        <a href="#" class="hover:text-teal-500">Sign In</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white bg-teal-500 hover:bg-teal-600 px-6 py-2 rounded inline-block font-semibold">
-                            Sign Up
-                        </a>
-                    </li>
-                </ul></div>
+            <a href="https://github.com/itsursujit" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://facebook.com/sujitpbaniya" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
         </div>
     </div>
+
 </nav>
-    @yield('content')
+
+<div class="container-fluid p-0">
+
+    <section class="resume-section-first p-3 p-lg-5 d-flex align-items-center" id="about">
+
+        <div class="w-100">
+            <div class="block">
+                <div class="row">
+                    <div class="w-50">
+                        <div class="span4">
+                            <img class="img-left w-100" src="/img/profile-lg.jpg"/>
+                        </div>
+                    </div>
+                    <div class="w-50 p-5">
+                        <div class="span4">
+                            <div class="content">
+                                <div class="content-heading">
+                                    <span>Software Engineer</span>
+                                    <h2>Sujit Baniya &nbsp; </h2><br>
+                                </div>
+                                <p>
+                                    Experienced Software Engineer in developing Web Application, as well as building robust RESTful API.
+                                    Expert in System Architecture Design, Development and Maintenance of Software systems.
+                                    Equipped with a diverse and promising skill-set required in the market.
+                                    Proficient in various platforms and languages. Able to effectively self-manage during independent
+                                    projects, as well as collaborate as part of productive team.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+        <div class="w-100">
+            <h2 class="mb-5">Experience</h2>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                    <h3 class="mb-0">Senior Software Engineer</h3>
+                    <div class="subheading mb-3">Intergo Telecom</div>
+                    <p>
+                        Roles &amp; Responsibilities coming soon...
+                    </p>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                    <h3 class="mb-0">Senior Software Engineer</h3>
+                    <div class="subheading mb-3">Deerwalk Services Pvt. Ltd.</div>
+                    <p>
+                        Roles &amp; Responsibilities coming soon...
+                    </p>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                    <h3 class="mb-0">Software Engineer</h3>
+                    <div class="subheading mb-3">Airport Sherpa</div>
+                    <p>
+                        Roles &amp; Responsibilities coming soon...
+                    </p>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                    <h3 class="mb-0">Software Engineer</h3>
+                    <div class="subheading mb-3">Kyvio</div>
+                    <p>
+                        Roles &amp; Responsibilities coming soon...
+                    </p>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                    <h3 class="mb-0">Software Engineer</h3>
+                    <div class="subheading mb-3">Kantipur Publication</div>
+                    <p>
+                        Roles &amp; Responsibilities coming soon...
+                    </p>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                    <h3 class="mb-0">Software Consultant</h3>
+                    <div class="subheading mb-3">Winrock International (KISAN Project)</div>
+                    <p>
+                        Roles &amp; Responsibilities coming soon...
+                    </p>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                    <h3 class="mb-0">Lecturer</h3>
+                    <div class="subheading mb-3">La Grande International College</div>
+                    <p>
+                        Roles &amp; Responsibilities coming soon...
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+        <div class="w-100">
+            <h2 class="mb-5">Education</h2>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                    <h3 class="mb-0">IGNOU</h3>
+                    <div class="subheading mb-3">Master of Computer Application</div>
+                    <div>Computer Application</div>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div class="resume-content">
+                    <h3 class="mb-0">La Grande International College</h3>
+                    <div class="subheading mb-3">Bachelor of Computer Application</div>
+                    <p>GPA: 3.64</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">June 2007 - November 2011</span>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div class="resume-content">
+                    <h3 class="mb-0">Sagarmatha Higher Secondary School</h3>
+                    <div class="subheading mb-3">Higher Secondary Schooling in Science</div>
+                    <p>Percentage: 73.2%</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">2005 - 2007</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+        <div class="w-100">
+            <h2 class="mb-5">Skills</h2>
+
+            <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+            <ul class="list-inline dev-icons">
+                <li class="list-inline-item">
+                    <i class="fab fa-html5"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="fab fa-css3-alt"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="fab fa-js-square"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="fab fa-php"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="fab fa-vuejs"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="fab fa-node-js"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="fab fa-sass"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="fab fa-gulp"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="fab fa-npm"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="fab fa-git"></i>
+                </li>
+            </ul>
+
+            <div class="subheading mb-3">Expertise</div>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    System Architecture and Design</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Backend API Development</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Handling a Team and tasks</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Agile Development &amp; Scrum</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i>
+                    Take Initiatives</li>
+            </ul>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+        <div class="w-100">
+            <h2 class="mb-5">Interests</h2>
+            <p>Apart from being a web developer, I enjoy most of my time surfing internet for technology articles and latest technology advancements. I also enjoy my time go trekking in summer.</p>
+            <p class="mb-0">When forced indoors, I spend a large amount of my free time playing with my daughters.</p>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contacts">
+        <div class="w-100">
+            <h2 class="mb-5">Contacts</h2>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <i class="fa-li fa fa-skype text-warning"></i>
+                    Skype: sujit.baniya2011</li>
+                <li>
+                    <i class="fa-li fa fa-mail-bulk text-warning"></i>
+                    hi@sujitbaniy.com</li>
+                <li>
+                    <i class="fa-li fa fa-phone text-warning"></i>
+                    +9779856034616</li>
+            </ul>
+        </div>
+    </section>
+
+</div>
+
 <script src="{{mix('/js/manifest.js')}}"></script>
 <script src="{{mix('/js/vendor.js')}}"></script>
 <script src="{{mix('/js/app.js')}}"></script>

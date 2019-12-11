@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="{{mix('/css/vendor.css')}}">
     <link rel="stylesheet" href="{{mix('/css/app.css')}}">
-    <title>Document</title>
+    <title>Sujit Baniya - Software Engineer, PHP, API Developer, API</title>
 </head>
 <body id="page-top">
 

@@ -5,6 +5,18 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Sujit Baniya - Experienced Software Engineer in developing Web Application, as well as building robust RESTful API.">
+    <meta name="keyword" content="Sujit Baniya, Developer in Nepal, PHP Developer in Nepal, API Developer, API, Web Developer, RESTful API, Backend Developer, US Medical Coding">
+    <meta name="title" content="Sujit Baniya - Software Engineer, PHP, API Developer, API">
+    <meta name="image" content="https://sujitbaniya.com/img/profile-lg.jpg">
+    <meta name="og:image" content="https://sujitbaniya.com/img/profile-lg.jpg">
+    <meta name="og:description" content="Sujit Baniya - Experienced Software Engineer in developing Web Application, as well as building robust RESTful API.">
+    <meta name="og:keyword" content="Sujit Baniya, Developer in Nepal, PHP Developer in Nepal, API Developer, API, Web Developer, RESTful API, Backend Developer, US Medical Coding">
+    <meta name="og:title" content="Sujit Baniya - Software Engineer, PHP, API Developer, API">
+    <meta name="twitter:image" content="https://sujitbaniya.com/img/profile-lg.jpg">
+    <meta name="twitter:description" content="Sujit Baniya - Experienced Software Engineer in developing Web Application, as well as building robust RESTful API.">
+    <meta name="twitter:keyword" content="Sujit Baniya, Developer in Nepal, PHP Developer in Nepal, API Developer, API, Web Developer, RESTful API, Backend Developer, US Medical Coding">
+    <meta name="twitter:title" content="Sujit Baniya - Software Engineer, PHP, API Developer, API">
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">

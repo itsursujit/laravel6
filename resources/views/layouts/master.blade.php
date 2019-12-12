@@ -76,32 +76,28 @@
 </nav>
 
 <div class="container-fluid p-0">
-
     <section class="resume-section-first p-3 p-lg-5 d-flex align-items-center" id="about">
-
         <div class="w-100">
             <div class="block">
                 <div class="row">
-                    <div class="w-50">
-                        <div class="span4">
+                    <div class="col-md-6 d-flex no-padding">
+                        <div class="p-md-0 img img-2 d-flex justify-content-center align-items-center">
                             <img class="img-left w-100" src="/img/profile-lg.jpg"/>
                         </div>
                     </div>
-                    <div class="w-50 p-5">
-                        <div class="span4">
-                            <div class="content">
-                                <div class="content-heading">
-                                    <span>Software Engineer</span>
-                                    <h2>Sujit Baniya &nbsp; </h2><br>
-                                </div>
-                                <p>
-                                    Experienced Software Engineer in developing Web Application, as well as building robust RESTful API.
-                                    Expert in System Architecture Design, Development and Maintenance of Software systems.
-                                    Equipped with a diverse and promising skill-set required in the market.
-                                    Proficient in various platforms and languages. Able to effectively self-manage during independent
-                                    projects, as well as collaborate as part of productive team.
-                                </p>
-                            </div>
+                    <div class="col-md-6 p-3 p-lg-5 py-md-5 pb-5 wrap-about pb-md-5 ftco-animate fadeInUp ftco-animated">
+                        <div class="heading-section mb-4 mt-md-5">
+                            <span class="subheading">Software Engineer</span>
+                            <h2 class="mb-4">Sujit Baniya</h2>
+                        </div>
+                        <div class="pb-md-5">
+                            <p>
+                                Experienced Software Engineer in developing Web Application, as well as building robust RESTful API.
+                                Expert in System Architecture Design, Development and Maintenance of Software systems.
+                                Equipped with a diverse and promising skill-set required in the market.
+                                Proficient in various platforms and languages. Able to effectively self-manage during independent
+                                projects, as well as collaborate as part of productive team.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -109,7 +105,7 @@
         </div>
     </section>
 
-    <hr class="m-0">
+    <hr class="m-0 ml-5">
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
         <div class="w-100">
@@ -189,7 +185,7 @@
 
     </section>
 
-    <hr class="m-0">
+    <hr class="m-0 ml-5">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
         <div class="w-100">
@@ -228,7 +224,7 @@
         </div>
     </section>
 
-    <hr class="m-0">
+    <hr class="m-0 ml-5">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
         <div class="w-100">
@@ -289,7 +285,7 @@
         </div>
     </section>
 
-    <hr class="m-0">
+    <hr class="m-0 ml-5">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
         <div class="w-100">
@@ -299,7 +295,7 @@
         </div>
     </section>
 
-    <hr class="m-0">
+    <hr class="m-0 ml-5">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contacts">
         <div class="w-100">

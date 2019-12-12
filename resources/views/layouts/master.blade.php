@@ -88,7 +88,7 @@
                     <div class="col-md-6 p-3 p-lg-5 py-md-5 pb-5 wrap-about pb-md-5 ftco-animate fadeInUp ftco-animated">
                         <div class="heading-section mb-4 mt-md-5">
                             <span class="subheading">Software Engineer</span>
-                            <h2 class="mb-4">Sujit Baniya</h2>
+                            <h2 class="mb-4 orange">Sujit Baniya</h2>
                         </div>
                         <div class="pb-md-5">
                             <p>
@@ -109,7 +109,7 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
         <div class="w-100">
-            <h2 class="mb-5">Experience</h2>
+            <h2 class="mb-5 orange">Experience</h2>
 
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="resume-content">
@@ -189,7 +189,7 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
         <div class="w-100">
-            <h2 class="mb-5">Education</h2>
+            <h2 class="mb-5 orange">Education</h2>
 
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="resume-content">
@@ -228,7 +228,7 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
         <div class="w-100">
-            <h2 class="mb-5">Skills</h2>
+            <h2 class="mb-5 orange">Skills</h2>
 
             <div class="subheading mb-3">Programming Languages &amp; Tools</div>
             <ul class="list-inline dev-icons">
@@ -289,7 +289,7 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
         <div class="w-100">
-            <h2 class="mb-5">Interests</h2>
+            <h2 class="mb-5 orange">Interests</h2>
             <p>Apart from being a web developer, I enjoy most of my time surfing internet for technology articles and latest technology advancements. I also enjoy my time go trekking in summer.</p>
             <p class="mb-0">When forced indoors, I spend a large amount of my free time playing with my daughters.</p>
         </div>
@@ -299,7 +299,7 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contacts">
         <div class="w-100">
-            <h2 class="mb-5">Contacts</h2>
+            <h2 class="mb-5 orange">Contacts</h2>
             <ul class="fa-ul mb-0">
                 <li>
                     <i class="fa-li fa fa-skype text-warning"></i>

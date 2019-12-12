@@ -63,7 +63,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-    background-color: #bd5d38
+    background-color: #54B689
 }
 
 .dev-icons {
@@ -71,7 +71,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-    color: #bd5d38
+    color: #54B689
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -169,12 +169,12 @@ section.resume-section .resume-item .resume-date {
     background-color: #fff !important
 }
 .navbar-nav a {color: #666 !important;}
-a.navbar-brand {color: #bd5d38 !important; font-weight: 500; font-family: Pollins, "Helvetica Neue", Arial}
-.resume-title {color: #bd5d38 !important; font-weight: 500; font-family: Pollins, "Helvetica Neue", Arial}
+a.navbar-brand {color: #54B689 !important; font-weight: 500; font-family: Pollins, "Helvetica Neue", Arial}
+.resume-title {color: #54B689 !important; font-weight: 500; font-family: Pollins, "Helvetica Neue", Arial}
 .navbar-toggler .navbar-toggler-icon{color: #666;}
 
 .text-primary {
-    color: #bd5d38 !important
+    color: #54B689 !important
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #666;
@@ -191,8 +191,9 @@ a.navbar-brand {color: #bd5d38 !important; font-weight: 500; font-family: Pollin
     height: 1px;
     bottom: 0;
     left: 25%;
-    border-bottom: 1px solid #bd5d38;
+    border-bottom: 1px solid #54B689;
 }
+.green{color: #54B689;}
 
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #000;
@@ -206,7 +207,7 @@ a {
 }
 
 a:active, a:focus, a:hover {
-    color: #824027
+    color: #0cb768
 }
 .span4 img {
     margin-right: 10px;
@@ -217,5 +218,5 @@ a:active, a:focus, a:hover {
 .span4 .img-right {
     float: right;
 }
-.orange{color:#824027;}
+.orange{color:#0cb768;}
 .no-padding{padding: 0 !important;}

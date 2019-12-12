@@ -114,7 +114,7 @@
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="resume-content">
                     <h3 class="mb-0">Senior Software Engineer</h3>
-                    <div class="subheading mb-3">Intergo Telecom</div>
+                    <div class="subheading mb-3 green">Intergo Telecom</div>
                     <p>
                         Roles &amp; Responsibilities coming soon...
                     </p>
@@ -124,7 +124,7 @@
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="resume-content">
                     <h3 class="mb-0">Senior Software Engineer</h3>
-                    <div class="subheading mb-3">Deerwalk Services Pvt. Ltd.</div>
+                    <div class="subheading mb-3 green">Deerwalk Services Pvt. Ltd.</div>
                     <p>
                         Roles &amp; Responsibilities coming soon...
                     </p>
@@ -134,7 +134,7 @@
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="resume-content">
                     <h3 class="mb-0">Software Engineer</h3>
-                    <div class="subheading mb-3">Airport Sherpa</div>
+                    <div class="subheading mb-3 green">Airport Sherpa</div>
                     <p>
                         Roles &amp; Responsibilities coming soon...
                     </p>
@@ -144,7 +144,7 @@
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="resume-content">
                     <h3 class="mb-0">Software Engineer</h3>
-                    <div class="subheading mb-3">Kyvio</div>
+                    <div class="subheading mb-3 green">Kyvio</div>
                     <p>
                         Roles &amp; Responsibilities coming soon...
                     </p>
@@ -154,7 +154,7 @@
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="resume-content">
                     <h3 class="mb-0">Software Engineer</h3>
-                    <div class="subheading mb-3">Kantipur Publication</div>
+                    <div class="subheading mb-3 green">Kantipur Publication</div>
                     <p>
                         Roles &amp; Responsibilities coming soon...
                     </p>
@@ -164,7 +164,7 @@
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="resume-content">
                     <h3 class="mb-0">Software Consultant</h3>
-                    <div class="subheading mb-3">Winrock International (KISAN Project)</div>
+                    <div class="subheading mb-3 green">Winrock International (KISAN Project)</div>
                     <p>
                         Roles &amp; Responsibilities coming soon...
                     </p>
@@ -174,7 +174,7 @@
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="resume-content">
                     <h3 class="mb-0">Lecturer</h3>
-                    <div class="subheading mb-3">La Grande International College</div>
+                    <div class="subheading mb-3 green">La Grande International College</div>
                     <p>
                         Roles &amp; Responsibilities coming soon...
                     </p>

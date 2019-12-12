@@ -7,16 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Sujit Baniya - Experienced Software Engineer in developing Web Application, as well as building robust RESTful API.">
     <meta name="keyword" property="keyword" content="Sujit Baniya, Developer in Nepal, PHP Developer in Nepal, API Developer, API, Web Developer, RESTful API, Backend Developer, US Medical Coding">
-    <meta name="title" property="title" content="Sujit Baniya - Software Engineer, PHP, API Developer, API">
+    <meta name="title" property="title" content="Sujit Baniya - Software Engineer, PHP, API Developer, Web Developer">
     <meta name="image" property="image" content="https://sujitbaniya.com/img/profile-lg.jpg">
     <meta name="og:description" property="og:description" content="Sujit Baniya - Experienced Software Engineer in developing Web Application, as well as building robust RESTful API.">
     <meta name="og:keyword" property="og:keyword" content="Sujit Baniya, Developer in Nepal, PHP Developer in Nepal, API Developer, API, Web Developer, RESTful API, Backend Developer, US Medical Coding">
-    <meta name="og:title" property="og:title" content="Sujit Baniya - Software Engineer, PHP, API Developer, API">
+    <meta name="og:title" property="og:title" content="Sujit Baniya - Software Engineer, PHP, API Developer, Web Developer">
     <meta name="og:image" property="og:image" content="https://sujitbaniya.com/img/profile-lg.jpg">
     <meta name="twitter:image" property="twitter:image" content="https://sujitbaniya.com/img/profile-lg.jpg">
     <meta name="twitter:description" property="twitter:description" content="Sujit Baniya - Experienced Software Engineer in developing Web Application, as well as building robust RESTful API.">
     <meta name="twitter:keyword" property="twitter:keyword" content="Sujit Baniya, Developer in Nepal, PHP Developer in Nepal, API Developer, API, Web Developer, RESTful API, Backend Developer, US Medical Coding">
-    <meta name="twitter:title" property="twitter:title" content="Sujit Baniya - Software Engineer, PHP, API Developer, API">
+    <meta name="twitter:title" property="twitter:title" content="Sujit Baniya - Software Engineer, PHP, API Developer, Web Developer">
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">

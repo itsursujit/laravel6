@@ -1,8 +1,14 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+// Variables
+@import 'variables';
+
 body {
     font-family: Muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     padding-top: 54px;
     color: #868e96;
-    background-color: #dedede;
+    background-color: #ececec;
 }
 
 @media (min-width: 992px) {
@@ -62,6 +68,10 @@ p.lead {
     margin-right: 0
 }
 
+.bg-custom-green {
+    background-color: #54B689
+}
+
 .social-icons a:hover {
     background-color: #54B689
 }
@@ -86,6 +96,7 @@ p.lead {
 
 @media (min-width: 992px) {
     section.resume-section.p-lg-5 {margin-left:33px !important;}
+    section.resume-section-blog.p-lg-5 {margin-left:33px !important;}
 
     .no-top-padding {
         padding-top:0px !important
@@ -149,6 +160,16 @@ section.resume-section {
     padding-top: 5rem !important;
     padding-bottom: 5rem !important;
     background-color: #fff;
+}
+
+section.resume-section-blog {
+    padding-top: 0 !important;
+    padding-bottom: 5rem !important;
+    background-color: #fff;
+}
+
+section.resume-section-blog .post-list-title:hover {
+    color: #54B689 !important;
 }
 
 section.resume-section .resume-item .resume-date {
